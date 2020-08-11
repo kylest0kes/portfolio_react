@@ -1,5 +1,5 @@
 import React from 'react';
-//import './script'
+//import './script' FIGURE OUT TYPEWRITER FUNCTION
 
 export default function BrandStatement() {
     return (
