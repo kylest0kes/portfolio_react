@@ -6,10 +6,13 @@ import BrandStatement from './components/BrandStatement';
 import AboutMe from './components/AboutMe';
 import Projects from './components/Projects';
 import Resume from './components/Resume';
+import projectInfo from './projects.json'
 import './App.css'
 
 export class App extends Component {
-  
+  state = {
+    projectInfo
+  }
   
   render() {
     return (
@@ -22,7 +25,9 @@ export class App extends Component {
                 <AboutMe />
               </Route>
               <Route path="/projects">
-                <Projects />
+                  <Projects 
+                  projectInfo={this.state.projectInfo}
+                  />
               </Route>
               <Route path="/resume">
                 <Resume />
