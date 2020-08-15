@@ -4,12 +4,12 @@ import resume from '../../images/kyleresumedl.pdf';
 
 export default function Resume() {
     return (
-        <div style={displayStyle} className="w3-animate-zoom">
-            <div className="container">
-                <h2 className="display-4">Resume</h2>
+        <div>   
+            <h2 style={displayStyle} className="display-4 w3-animate-zoom">Resume</h2>
+            <div style={displayStyle} className="w3-animate-zoom">
+                <a href={resume} target="blank" style={resumeStyle}><i className="fas fa-file-download dl-btn"></i></a>
             </div>
-            <a href={resume} target="blank" style={resumeStyle}><i className="fas fa-file-download dl-btn"></i></a>
-        </div>
+        </div> 
     )
 }
 

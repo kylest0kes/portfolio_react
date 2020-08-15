@@ -1,33 +1,34 @@
 import React from 'react';
-import weatherapp from '../../images/weatherapp.png'
 
-export default function Projects() {
-    return (
-        <div>
-            <div className="w3-animate-zoom" style={displayStyle}>
+
+export default function Projects(props) {
+     
+        return (
+            <div>
+                <div className="w3-animate-zoom" style={displayStyle}>
+                    <div className="container">
+                        <h1 className="display-4">Projects</h1>
+                    </div>
+                </div>
                 <div className="container">
-                    <h1 className="display-4">Projects</h1>
-                </div>
-            </div>
-            <div className="container">
-                <div className="row">
-                    <div className="col s12 m4">
-                        <div style={portfolioStyle} className="w3-animate-zoom">
-                            <div style={portfolioImg}>
-                                <a href="https://kylest0kes.github.io/weather_app/" target="blank"><img src={weatherapp} style={portfolioImg} alt="weather app"/></a>
-                            </div>
-                                <div className="card-body">
-                                    <h4 style={projectTitle} className="card-title project-title">Weather Dashboard</h4>
-                                    <h6 style={projectBio} className="card-text">If there is one thing that is ever-changing in our lives, it is the weather. We are always trying to stay curent with it, as it can effect, and possibly ruin our plans. So with this weather dashboard application, the goal is to make the user aware of the weather for any desired loction. </h6>
-                                    <br/>
-                                    <a href="https://github.com/kylest0kes/weather_app" style={projectGithub} target="blank"><i className="fab fa-github"></i></a>
+                    <div className="row">
+                        <div className="col s12 m4">
+                            <div style={portfolioStyle} className="w3-animate-zoom">
+                                <div style={portfolioImg}>
+                                    <a href={props.projectLink} target="blank"><img src={props.image} style={portfolioImg} alt={props.title}/></a>
                                 </div>
-                        </div>
-                    </div> 
+                                    <div className="card-body">
+                                        <h4 style={projectTitle} className="card-title project-title">{props.title}</h4>
+                                        <h6 style={projectBio} className="card-text">{props.bio}</h6>
+                                        <br/>
+                                        <a href={props.githubLink} style={projectGithub} target="blank"><i className="fab fa-github"></i></a>
+                                    </div>
+                            </div>
+                        </div> 
+                    </div>
                 </div>
             </div>
-        </div>
-    )
+        )
 }
 
 const displayStyle = {
