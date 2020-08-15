@@ -52,7 +52,7 @@ const portfolioImg = {
     display: 'block',
     marginLeft: 'auto',
     marginRight: 'auto',
-    marginTop: '20px',
+    paddingTop: '10px',
     marginBottom: '10px'
 };
 
@@ -63,7 +63,7 @@ const projectTitle = {
 
 const projectBio = {
     textAlign: 'center',
-    height: '160px',
+    height: '145px',
     overflow: 'auto',
     fontSize: '17px'
 }

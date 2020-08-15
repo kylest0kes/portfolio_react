@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Header from './components/Header';
 import Footer from './components/Footer';
 import BrandStatement from './components/BrandStatement';
@@ -12,12 +13,22 @@ import './App.css'
 function App() {
   return (
     <div className="App">
-      <Header />
+      <Router>  
+        <Header />
         <BrandStatement />
-        <AboutMe />
-        <Projects />
-        <Resume />
-      <Footer />
+          <Switch> 
+            <Route exact path="/">
+              <AboutMe />
+            </Route>
+            <Route path="/projects">
+              <Projects />
+            </Route>
+            <Route path="/resume">
+              <Resume />
+            </Route>
+          </Switch> 
+        <Footer />
+      </Router>
     </div>
   );
 }
