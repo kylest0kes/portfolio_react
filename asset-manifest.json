@@ -1,25 +1,29 @@
 {
   "files": {
     "main.css": "/portfolio_react/static/css/main.da5b79f4.chunk.css",
-    "main.js": "/portfolio_react/static/js/main.0a9fcfd0.chunk.js",
-    "main.js.map": "/portfolio_react/static/js/main.0a9fcfd0.chunk.js.map",
+    "main.js": "/portfolio_react/static/js/main.802b7552.chunk.js",
+    "main.js.map": "/portfolio_react/static/js/main.802b7552.chunk.js.map",
     "runtime-main.js": "/portfolio_react/static/js/runtime-main.fa04381e.js",
     "runtime-main.js.map": "/portfolio_react/static/js/runtime-main.fa04381e.js.map",
-    "static/js/2.c775ab91.chunk.js": "/portfolio_react/static/js/2.c775ab91.chunk.js",
-    "static/js/2.c775ab91.chunk.js.map": "/portfolio_react/static/js/2.c775ab91.chunk.js.map",
+    "static/js/2.75e5a146.chunk.js": "/portfolio_react/static/js/2.75e5a146.chunk.js",
+    "static/js/2.75e5a146.chunk.js.map": "/portfolio_react/static/js/2.75e5a146.chunk.js.map",
     "index.html": "/portfolio_react/index.html",
-    "precache-manifest.746f78dbc2c2a2b465bb81854ac69172.js": "/portfolio_react/precache-manifest.746f78dbc2c2a2b465bb81854ac69172.js",
+    "precache-manifest.ca1b9602fbcad80bf0c55b94a4a824ad.js": "/portfolio_react/precache-manifest.ca1b9602fbcad80bf0c55b94a4a824ad.js",
     "service-worker.js": "/portfolio_react/service-worker.js",
     "static/css/main.da5b79f4.chunk.css.map": "/portfolio_react/static/css/main.da5b79f4.chunk.css.map",
-    "static/js/2.c775ab91.chunk.js.LICENSE.txt": "/portfolio_react/static/js/2.c775ab91.chunk.js.LICENSE.txt",
+    "static/js/2.75e5a146.chunk.js.LICENSE.txt": "/portfolio_react/static/js/2.75e5a146.chunk.js.LICENSE.txt",
     "static/media/App.css": "/portfolio_react/static/media/bkground.9f83e233.jpg",
+    "static/media/brewforyou.png": "/portfolio_react/static/media/brewforyou.3b165ef9.png",
+    "static/media/eattheburger.png": "/portfolio_react/static/media/eattheburger.404e5197.png",
     "static/media/kyleresumedl.pdf": "/portfolio_react/static/media/kyleresumedl.3ab06668.pdf",
-    "static/media/newkyle.jpg": "/portfolio_react/static/media/newkyle.38c9089e.jpg"
+    "static/media/newkyle.jpg": "/portfolio_react/static/media/newkyle.38c9089e.jpg",
+    "static/media/posttosold.png": "/portfolio_react/static/media/posttosold.ca70517b.png",
+    "static/media/weatherapp.png": "/portfolio_react/static/media/weatherapp.69bc9cd4.png"
   },
   "entrypoints": [
     "static/js/runtime-main.fa04381e.js",
-    "static/js/2.c775ab91.chunk.js",
+    "static/js/2.75e5a146.chunk.js",
     "static/css/main.da5b79f4.chunk.css",
-    "static/js/main.0a9fcfd0.chunk.js"
+    "static/js/main.802b7552.chunk.js"
   ]
 }
