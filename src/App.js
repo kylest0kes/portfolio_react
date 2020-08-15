@@ -6,15 +6,13 @@ import BrandStatement from './components/BrandStatement';
 import AboutMe from './components/AboutMe';
 import Projects from './components/Projects';
 import Resume from './components/Resume';
-import projectInfo from './projects.json'
+import projectInfo from './projects'
 import './App.css'
 
 export class App extends Component {
-  state = {
-    projectInfo
-  }
   
   render() {
+    console.log(projectInfo)
     return (
       <div className="App">
         <Router>  
@@ -26,7 +24,7 @@ export class App extends Component {
               </Route>
               <Route path="/projects">
                   <Projects 
-                  projectInfo={this.state.projectInfo}
+                  projectInfo={projectInfo}
                   />
               </Route>
               <Route path="/resume">

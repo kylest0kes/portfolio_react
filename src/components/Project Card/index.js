@@ -44,7 +44,7 @@ const projectTitle = {
 
 const projectBio = {
     textAlign: 'center',
-    height: '145px',
+    height: '120px',
     overflow: 'auto',
     fontSize: '17px'
 }
